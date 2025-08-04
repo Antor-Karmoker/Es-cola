@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@utility container {  margin-inline: auto;}
+
+
+@theme{
+
+    /* ---------font */
+    --font-inter: "Inter", sans-serif;
+
+
+
+    /* --------- color */
+    --color-main : #192335;
+}
