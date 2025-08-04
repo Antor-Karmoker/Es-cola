@@ -1,5 +1,5 @@
 import React from 'react'
-import CartCommon from './common/cartCommon'
+import CartCommon from '../components/common/CartCommon'
 import logo1 from '../assets/images/cart1.png'
 import logo2 from '../assets/images/cart2.png'
 import logo3 from '../assets/images/cart3.png'
