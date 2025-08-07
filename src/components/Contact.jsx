@@ -1,13 +1,15 @@
 import React from 'react'
 import CommonHead from './common/CommonHead'
 import logo from '../assets/images/Illustration.png'
+import contimg from '../assets/images/getimg.png'
 
 const Contact = () => {
   return (
     <>
     
     
-    <section id='conatct' className='pt-[123px] pb-[120px]'>
+    <section id='conatct' className='pt-[123px] relative pb-[120px]'>
+      <div className=' absolute top-[323px] right-[86px]'><img src={contimg} alt="extra-logo" /></div>
         <div className="container">
             <div id='contact-row' className='flex justify-around'>
                 <div><img src={logo} alt="contact-img" /></div>
@@ -27,14 +29,8 @@ const Contact = () => {
                     <textarea className='w-[630px] border-[#E3E3E3] rounded-[5px] py-[22px] pl-[20px] border text-[17px] mt-[20px] mb-[30px] font-inter font-normal text-main' name="Message" id="dfghdfhgdh">Message</textarea>
             
               </div>
-              <button className='w-[630px] py-[21px] bg-[#2F57EF] rounded-[5px] text-[17px] font-normal font-inter text-[#ffff]'>submit now</button>
-              
-              
-              
-              
-              
+              <button className='w-[630px] py-[21px] bg-[#2F57EF] rounded-[5px] text-[17px] font-normal font-inter text-[#ffff]'>submit now</button>        
                 </div>
-
             </div>
         </div>
     </section>

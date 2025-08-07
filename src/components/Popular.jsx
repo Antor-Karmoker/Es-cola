@@ -9,7 +9,7 @@ const Popular = () => {
     <>
     
     
-    <section id='popular' className=' pb-[112px]'>
+    <section id='popular' className='pt-[120px] pb-[112px]'>
         <div className="container">
             <div id=' popular-row' className='flex justify-around items-center'>
                 <Link ><img src={logo} alt="" /></Link>

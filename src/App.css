@@ -1,3 +1,25 @@
 /* ---------------- font-inter */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.slick-arrow{
+    width: 77px;
+    height: 77px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+ .slick-prev{
+    position: absolute;
+    top: -114px;
+    right: 226px;
+}
+
+.slick-next{
+    position: absolute;
+    top: -110px;
+    right: 83px;
+}
