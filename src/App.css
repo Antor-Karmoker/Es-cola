@@ -4,12 +4,21 @@
 
 
 .slick-arrow{
-    width: 77px;
-    height: 77px;
+    width: 67px;
+    height: 67px;
+    padding: 20px;
 
     border: 1px solid black;
     border-radius: 50%;
     font-size: 20px;
+}
+
+.slick-track {
+
+    top: -8px !important;
+    left: 174px !important;
+    opacity: 9999 !important;
+
 }
 
  .slick-prev{

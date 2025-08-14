@@ -16,10 +16,10 @@ const Services = () => {
     arrow: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 3,
-    nextArrow: <FaArrowRight/>,
-    prevArrow: <FaArrowLeft />
+    prevArrow: <FaArrowLeft className='text-[15px]' /> ,
+    nextArrow: <FaArrowRight className='text-[15px]'/>,
   };
 
   return (
@@ -29,9 +29,10 @@ const Services = () => {
         <div className="container">
             <CommonHead commonp={'Services we’re offering'} />
             <div id='service-row'>
-                <div className='w-[434px]'><h2 className='text-[42px] font-bold font-inter text-main'>Navigating your path to success</h2></div>
+                <div className='w-[434px] pb-[40px]'><h2 className='text-[42px] font-bold font-inter text-main'>Navigating your path to success</h2></div>
             </div>
 
+        </div>
 
       <Slider {...settings}>
         <div>
@@ -62,7 +63,6 @@ const Services = () => {
       </Slider>
   
 
-        </div>
     </section>
     
     
