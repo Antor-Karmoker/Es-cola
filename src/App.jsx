@@ -4,6 +4,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import LayoutOne from './layout/LayoutOne'
 import Home from './pages/Home'
 import Service from './pages/Service'
+import ContactPage from './pages/ContactPage'
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const myRoute = createBrowserRouter(createRoutesFromElements(
     <Route path='/' element={<LayoutOne />}>
     <Route index element={<Home />} />
     <Route path='/service' element={<Service />} />
+    <Route path='/ContactPage' element={<ContactPage />} />
 
     </Route>
   </Route>

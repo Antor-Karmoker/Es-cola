@@ -24,7 +24,7 @@ const Navbr = () => {
               <li className='flex gap-[10px] items-center'><Link  to={'/'}  className='text-[16px]  flex items-center gap-[10px]  font-medium font-inter text-main'>Projects    <MdKeyboardArrowDown /></Link> </li>
               <li className='flex gap-[10px] items-center'><Link to={'/'}   className='text-[16px] flex items-center gap-[10px]   font-medium font-inter text-main'>Blog     <MdKeyboardArrowDown /></Link> </li>
               <li className='flex gap-[10px] items-center'><Link to={'/'}   className='text-[16px] flex items-center gap-[10px]   font-medium font-inter text-main'>Page <MdKeyboardArrowDown /></Link> </li>
-              <li className='flex gap-[10px] items-center'><Link to={'/'}   className='text-[16px] flex items-center gap-[10px]   font-medium font-inter text-main'>Contact <MdKeyboardArrowDown /></Link>   </li>
+              <li className='flex gap-[10px] items-center'><Link to={'/ContactPage'}   className='text-[16px] flex items-center gap-[10px]   font-medium font-inter text-main'>Contact <MdKeyboardArrowDown /></Link>   </li>
             </ul>
           </div>
 {/* ----------------- nav search + button */}
