@@ -4,9 +4,9 @@
 
 
 .slick-arrow{
-    width: 67px;
-    height: 67px;
-    padding: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
 
     border: 1px solid black;
     border-radius: 50%;
@@ -31,4 +31,9 @@
     position: absolute;
     top: -110px;
     right: 83px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
 }

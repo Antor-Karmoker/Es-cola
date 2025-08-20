@@ -59,10 +59,7 @@ const Services = () => {
         <div>
           <ServiceCommon />
         </div>
-
       </Slider>
-  
-
     </section>
     
     
