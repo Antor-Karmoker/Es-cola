@@ -5,6 +5,7 @@ import LayoutOne from './layout/LayoutOne'
 import Home from './pages/Home'
 import Service from './pages/Service'
 import ContactPage from './pages/ContactPage'
+import About from './pages/About'
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const myRoute = createBrowserRouter(createRoutesFromElements(
     <Route index element={<Home />} />
     <Route path='/service' element={<Service />} />
     <Route path='/ContactPage' element={<ContactPage />} />
+    <Route path='/about' element={<About />} />
 
     </Route>
   </Route>

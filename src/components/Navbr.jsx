@@ -19,7 +19,7 @@ const Navbr = () => {
           <div>
             <ul className='flex gap-[24px]'>
               <li className='flex gap-[10px] items-center'><Link to={'/'}   className='text-[16px] flex items-center gap-[10px]   font-medium font-inter  text-main'>Home         <MdKeyboardArrowDown /></Link> </li>
-              <li className='flex gap-[10px] items-center'><Link to={'/'}   className='text-[16px] flex items-center gap-[10px]   font-medium font-inter text-main'>About Us      <MdKeyboardArrowDown /></Link> </li>
+              <li className='flex gap-[10px] items-center'><Link to={'/about'}   className='text-[16px] flex items-center gap-[10px]   font-medium font-inter text-main'>About Us      <MdKeyboardArrowDown /></Link> </li>
               <li className='flex gap-[10px] items-center'><Link to={'/service'}   className='text-[16px] flex items-center gap-[10px]   font-medium font-inter text-main'>Services  <MdKeyboardArrowDown /></Link> </li>
               <li className='flex gap-[10px] items-center'><Link  to={'/'}  className='text-[16px]  flex items-center gap-[10px]  font-medium font-inter text-main'>Projects    <MdKeyboardArrowDown /></Link> </li>
               <li className='flex gap-[10px] items-center'><Link to={'/'}   className='text-[16px] flex items-center gap-[10px]   font-medium font-inter text-main'>Blog     <MdKeyboardArrowDown /></Link> </li>
