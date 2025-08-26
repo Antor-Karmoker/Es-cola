@@ -6,6 +6,8 @@ import Home from './pages/Home'
 import Service from './pages/Service'
 import ContactPage from './pages/ContactPage'
 import About from './pages/About'
+import Blog from './components/Blog'
+import BlogPage from './pages/BlogPage'
 
 const App = () => {
 
@@ -16,6 +18,7 @@ const myRoute = createBrowserRouter(createRoutesFromElements(
     <Route path='/service' element={<Service />} />
     <Route path='/ContactPage' element={<ContactPage />} />
     <Route path='/about' element={<About />} />
+    <Route path='/blog' element={<BlogPage />} />
 
     </Route>
   </Route>
